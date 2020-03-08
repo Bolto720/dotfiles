@@ -1,1 +1,7 @@
-Xcursor.size: 16
+xterm*faceName: DejaVu Sans Mono
+xterm*faceSize: 10
+xterm*renderFont: true
+
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
