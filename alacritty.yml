@@ -328,7 +328,7 @@ shell:
   args:
       - --login
       - --init-command
-      - "neofetch | lolcat"
+      - "cat ~/.cache/wal/sequences & && neofetch"
 
 # Startup directory
 #
