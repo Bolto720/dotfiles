@@ -193,6 +193,9 @@ gaps inner 10
 
 ## CUSTOM ##
 
+# Policy kit (lxsession)
+exec --no-startup-id lxpolkit 
+
 # keyboard
 exec --no-startup-id setxkbmap gb
 
